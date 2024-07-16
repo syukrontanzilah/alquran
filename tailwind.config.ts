@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        arabicFont : ["Amiri", "serif"],
+        // arabicFont: ["Noto Naskh Arabic", "serif"]
+      }
     },
   },
   plugins: [],
