@@ -47,11 +47,11 @@ export default function Home() {
          <div className="p-5 pt-32">
           {listQuran.map((item, i)=> {
             return(
-              <Link href={{ 
+              <Link key={i} href={{ 
                 pathname: `/${item.nomor}`,
                 // query: {nama: item.nama},
                 }}>
-              <div key={i} className="flex justify-between items-center p-3 border rounded-xl mb-4 transition-all hover:bg-slate-100 shadow-md">
+              <div  className="flex justify-between items-center p-3 border rounded-xl mb-4 transition-all hover:bg-slate-100 shadow-md">
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full flex justify-center items-center border border-gray-300 mr-3">
                    {item?.nomor} 

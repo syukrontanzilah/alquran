@@ -34,7 +34,7 @@ const getSurat = async () => {
 
   useEffect(()=> {
     getSurat()
-  },[])
+  },[id])
 
   const numbers = `۰۱۲۳٤۵٦۷۸۹`;
   const convert = (num: { toString: () => any; }) => {
